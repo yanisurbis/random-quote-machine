@@ -3,9 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <title>Github Battle</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.0.28/css/bulma.min.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+  <!-- <link rel="stylesheet" href=""> -->
 </head>
 <body>
   <div id="app"></div>
+
+  <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCOCEVqxYcIXwNbnVZxCJqNKLVJx7He-2Q",
+      authDomain: "yanis-quote-machine.firebaseapp.com",
+      databaseURL: "https://yanis-quote-machine.firebaseio.com",
+      storageBucket: "",
+    };
+    firebase.initializeApp(config);
+  </script>
+
 <script type="text/javascript" src="index_bundle.js"></script></body>
 </html>
